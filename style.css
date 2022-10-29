@@ -1,0 +1,110 @@
+html, body{
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto mono';
+    font-size: 16px;
+    background-color: rgb(163, 152, 0);
+}
+
+a{
+    color: black;
+}
+
+#main{
+    margin: 0 50px;
+}
+  
+h1{
+    color: #ffffff;
+    text-align: center;
+    font-size: 2rem;
+    margin: 3rem;
+}
+  
+#container{
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 540px;
+    border-radius: 1rem;
+    padding: 30px;
+}
+
+#display{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 3rem;
+}
+  
+#time{
+    color: #1e90ff;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 20px rgba(0,139,253,0.25);
+    margin: .5rem;
+}
+
+#touch_num{
+    color: #ff3c1e;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 20px rgba(0,139,253,0.25);
+    margin: .5rem;
+}
+
+#buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px 50px 0px;
+}
+
+#start, #touch, #goal{
+    margin: 10px;
+    font-size: 1.5rem;
+    border-radius: .3rem;
+    box-shadow: 0 0 20px rgba(77, 78, 79, 0.25);
+}
+
+#second-container{
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 540px;
+    border-radius: 1rem;
+    padding: 30px;
+    text-align: center;
+}
+
+
+h2{
+    margin-bottom: 20px;
+}
+
+#result-box{
+    margin-bottom: 20px;
+}
+
+#realtime, #penalty, #record{
+    text-align: center;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgba(0,139,253,0.25);
+    margin: .5rem;
+}
+
+@media screen and (max-width: 320px){
+    #display{
+        font-size: 2rem;
+    }    
+}
+
+@media screen and (max-width: 230px){
+    #display{
+        font-size: 1rem;
+    }    
+    #buttons{
+        margin: 0px;
+    }
+}
