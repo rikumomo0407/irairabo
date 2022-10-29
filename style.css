@@ -2,6 +2,7 @@ html, body{
     display: flex;
     justify-content: center;
     width: 100%;
+    height: 110%;
     font-family: 'Roboto mono','Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic';
     font-size: 16px;
     background-color: rgb(163, 152, 0);
@@ -12,7 +13,7 @@ a{
 }
 
 #main{
-    margin: 0 50px 100px;
+    margin: 0 50px;
 }
   
 h1{
